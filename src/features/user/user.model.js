@@ -20,14 +20,14 @@ export default class UserModel{
 }
 
 let users = [{
-    "id": 1,
-    "name": "User One",
-    "email": "userone@social.com",
-    "password":"Password1",
+    id: 1,
+    name: "User One",
+    email: "userone@social.com",
+    password:"Password1",
 },
 {
-    "id": 2,
-    "name": "User Two",
-    "email": "usertwo@social.com",
-    "password":"Password1",
+    id: 2,
+    name: "User Two",
+    email: "usertwo@social.com",
+    password:"Password1",
 }]
