@@ -64,7 +64,7 @@ export default class PostModel {
     }
     //Filter Posts by caption
     static getByCaption(caption){
-        console.log("filtering by caption:", caption);
+        // console.log("filtering by caption:", caption);
         if (!caption.trim()) {
           throw new ApplicationError("Caption must be entered to filter.", 400);
         } 
@@ -76,7 +76,7 @@ export default class PostModel {
                 400
               );
         }
-        console.log("Filtered posts:", post);
+        // console.log("Filtered posts:", post);
         return post;
     }  
     //Save Post by user

@@ -1,5 +1,5 @@
 {
-  "name": "sharemore-rest-api",
+  "name": "ShareMore-rest-api",
   "version": "1.0.0",
   "description": "An social-media Rest API Application to share, comment and like post. ",
   "main": "server.js",
@@ -12,7 +12,10 @@
   "dependencies": {
     "body-parser": "^1.20.2",
     "express": "^4.19.2",
+    "express-validator": "^7.1.0",
     "jsonwebtoken": "^9.0.2",
-    "multer": "^1.4.5-lts.1"
+    "multer": "^1.4.5-lts.1",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.13.0"
   }
 }
